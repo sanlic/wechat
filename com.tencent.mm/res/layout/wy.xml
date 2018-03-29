@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.MyGameVideoRecomStyleView android:orientation="horizontal" android:id="@id/bhp" android:background="@drawable/o0" android:padding="@dimen/fk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/h3" android:id="@id/bhb" android:layout_width="60.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/he" android:ellipsize="end" android:id="@id/bhc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ff" android:singleLine="true" android:layout_toRightOf="@id/bhb" />
+            <TextView android:textSize="@dimen/fb" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/g2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fv" android:singleLine="true" android:layout_below="@id/bhb" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/hd" android:id="@id/bhq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fv" android:layout_marginRight="@dimen/ft" android:singleLine="true" android:layout_below="@id/g2" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/hd" android:id="@id/bhr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fv" android:singleLine="true" android:layout_toRightOf="@id/bhq" android:layout_below="@id/g2" />
+            <TextView android:textSize="@dimen/fd" android:textColor="@color/he" android:id="@id/bhs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fv" android:singleLine="true" android:layout_below="@id/bhq" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/bht" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fp">
+            <FrameLayout android:id="@id/bhu" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/g1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <ImageView android:layout_gravity="center" android:id="@id/bhv" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" />
+            </FrameLayout>
+        </RelativeLayout>
+    </com.tencent.mm.plugin.game.ui.MyGameVideoRecomStyleView>
+</LinearLayout>

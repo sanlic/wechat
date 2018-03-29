@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" xmlns:mm="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.AccountInfoPreference mm:i="@string/d1h" mm:l2="more_tab_setting_personal_info" mm:lj="@layout/a6i" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference mm:i="@string/d0g" mm:o="@raw/more_my_bank_card" mm:l2="settings_mm_wallet" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference mm:i="@string/d0e" mm:o="@raw/more_my_favorite" mm:l2="settings_mm_favorite" />
+    <NormalIconPreference mm:i="@string/d0v" mm:o="@raw/more_my_album" mm:l2="settings_my_album" />
+    <NormalIconPreference mm:i="@string/d0c" mm:o="@raw/more_my_card" mm:l2="settings_mm_cardpackage" />
+    <NormalIconPreference mm:i="@string/cyz" mm:o="@raw/find_more_emji" mm:l2="settings_emoji_store" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference mm:i="@string/d3y" mm:o="@raw/more_setting" mm:l2="more_setting" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference mm:i="@string/dhq" mm:o="@raw/more_ui_show" mm:l2="more_uishow" />
+    <PreferenceCategory /> -->
+</PreferenceScreen>

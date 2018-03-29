@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <IconPreference android:i="@string/d3m" android:l2="settings_switch_account" />
+    <Preference android:i="@string/d4q" android:l2="settings_username" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:i="@string/d0h" android:l2="settings_mobile" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.PluginTextPreference android:l2="settings_about_vusertitle" />
+    <com.tencent.mm.plugin.setting.ui.setting.SelfVuserPreference android:l2="settings_about_vuserinfo" />
+    <Preference android:i="@string/amb" android:l2="settings_about_vuser_about" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/czq" android:l2="settings_independent_password" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:i="@string/d4s" android:l2="settings_voiceprint_title" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:i="@string/czj" android:l2="settings_fingerprint_title" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:i="@string/azv" android:l2="settings_facedect_title" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/d47" android:l2="settings_trust_friend" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:i="@string/cpl" android:l2="settings_safe_device" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:i="@string/d0t" android:l2="settings_more_safe" />
+    <PreferenceSmallCategory />
+    <Preference android:h="@string/d2r" android:i="@string/d2q" android:l2="settings_security_center" android:lj="@layout/a5m" />
+</PreferenceScreen>

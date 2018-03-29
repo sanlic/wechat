@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:background="#ffeeeeee" android:paddingTop="@dimen/gj" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ayj" android:layout_width="@dimen/gh" android:layout_height="@dimen/gh" android:src="@drawable/ab7" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/ha" android:id="@id/ayk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gj" android:text="@string/awc" android:layout_below="@id/ayj" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/g5" android:textColor="@color/iq" android:id="@id/ayl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gf" android:text="" android:layout_below="@id/ayk" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/aym" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/uw" android:background="@color/fk" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="1.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textColor="@color/iq" android:gravity="bottom|center" android:id="@id/ayn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gj" android:maxLines="2" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

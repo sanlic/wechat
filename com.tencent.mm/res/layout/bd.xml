@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/l7" android:background="#fff0eff4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/ha" android:id="@id/l8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gf" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/gf" />
+        <TextView android:textSize="@dimen/i6" android:textStyle="bold" android:id="@id/l9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gf" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/gf" android:layout_below="@id/l8" />
+        <TextView android:textSize="@dimen/i6" android:textColor="@color/jd" android:id="@id/l_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gf" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/gf" android:text="@string/h0" android:layout_toRightOf="@id/l9" android:layout_below="@id/l8" />
+        <com.tencent.mm.ui.base.MMFormVerifyCodeInputView android:id="@id/la" android:focusableInTouchMode="false" android:layout_marginLeft="@dimen/gf" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/gf" android:layout_below="@id/l9" form:i6="@layout/a3l" form:i7="@string/h3" form:i8="@string/h1" form:i9="@string/gx" style="@style/MMFormInputView" />
+        <Button android:id="@id/l1" android:layout_marginLeft="@dimen/gf" android:layout_marginTop="@dimen/gf" android:layout_marginRight="@dimen/gf" android:layout_marginBottom="@dimen/gf" android:text="@string/gw" android:layout_below="@id/la" style="@style/MMSolidGreenLargeButton" />
+        <com.tencent.mm.plugin.appbrand.widget.input.AppBrandNumberKeyboardView android:id="@id/lb" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference android:l2="contact_info_header_helper" android:lj="@layout/a8p" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/aiy" android:l2="contact_info_medianote_view" android:lj="@layout/a3s" />
+    <CheckBoxPreference android:g="false" android:i="@string/aiv" android:l2="contact_info_medianote_sync_to_qqmail" android:lj="@layout/a3s" />
+    <Preference android:i="@string/agw" android:l2="contact_info_medianote_clear_data" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/d1u" android:l2="contact_info_medianote_install" android:lj="@layout/yg" />
+    <Preference android:i="@string/d20" android:l2="contact_info_medianote_uninstall" android:lj="@layout/a0e" />
+    <PreferenceCategory />
+</PreferenceScreen>

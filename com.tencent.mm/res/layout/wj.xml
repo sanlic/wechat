@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bgn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/bdz" android:background="@drawable/o0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/um" android:padding="@dimen/fu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.tencent.mm.plugin.game.widget.AutoResizeTextView android:textSize="28.0dip" android:textColor="@color/iq" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/be0" android:paddingRight="2.0dip" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/qu" android:layout_width="@dimen/fq" android:layout_height="@dimen/fq" android:src="@drawable/a06" android:scaleType="fitXY" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                            <TextView android:textSize="@dimen/ha" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/qw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                            <TextView android:textSize="@dimen/ia" android:textColor="@color/rn" android:gravity="center" android:id="@id/be2" android:background="@drawable/lk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i5" />
+                        </LinearLayout>
+                        <TextView android:textSize="@dimen/g5" android:textColor="@color/i6" android:ellipsize="end" android:id="@id/bee" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:textSize="@dimen/g5" android:textColor="@color/i6" android:ellipsize="end" android:id="@id/be3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/bgo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <Button android:layout_gravity="center_vertical" android:id="@id/be4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ber" style="@style/GameListButton" />
+                        <com.tencent.mm.plugin.game.widget.TextProgressBar android:layout_gravity="center_vertical" android:id="@id/be5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="50" style="@style/GameDownloadProgress" />
+                    </FrameLayout>
+                </LinearLayout>
+                <com.tencent.mm.plugin.game.ui.GameListSocialView android:orientation="vertical" android:id="@id/be6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

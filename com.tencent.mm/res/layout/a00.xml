@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ha" android:id="@id/bv_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i5" android:text="@string/c56" />
+    <CheckBox android:textSize="@dimen/g5" android:layout_gravity="left" android:id="@id/bva" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kw" android:drawablePadding="4.0dip" style="@style/MMTextCheckBox" />
+</LinearLayout>

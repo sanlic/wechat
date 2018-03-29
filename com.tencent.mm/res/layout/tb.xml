@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/fs" android:paddingLeft="@dimen/bx" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/h9" style="@style/MMFullLineItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/auu" android:padding="@dimen/i8" android:layout_width="@dimen/bv" android:layout_height="@dimen/bv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/auv" android:paddingLeft="@dimen/gw" android:paddingRight="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/b7f" android:layout_toRightOf="@id/auu" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/gb" android:id="@id/awu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/MMFontTitleInList" />
+        <TextView android:id="@id/b7g" android:paddingRight="@dimen/h_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/awu" android:layout_alignParentLeft="true" style="@style/MMFontTipInList" />
+        <TextView android:id="@id/b7h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/b7g" android:layout_below="@id/awu" style="@style/MMFontTipInList" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/b7f" android:layout_width="@dimen/h9" android:layout_height="@dimen/h9" android:layout_alignParentRight="true">
+        <View android:layout_gravity="center_vertical" android:background="#18000000" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+        <CheckBox android:layout_gravity="center" android:id="@id/b7i" android:focusable="false" android:clickable="false" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" style="@style/MMCheckBox" />
+    </FrameLayout>
+</RelativeLayout>

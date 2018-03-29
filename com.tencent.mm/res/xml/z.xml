@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.NormalUserHeaderPreference android:l2="contact_info_header_normal" android:lj="@layout/lz" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/ah8" android:l2="contact_info_district" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/akz" android:l2="contact_info_signature" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/aly" android:l2="contact_info_source" android:lj="@layout/a3s" />
+    <com.tencent.mm.pluginsdk.ui.preference.SnsPreference android:i="@string/al0" android:l2="contact_info_sns" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/ai3" android:l2="contact_info_invite_source" android:lj="@layout/a3s" />
+    <com.tencent.mm.plugin.profile.ui.ContactMoreInfoPreference android:i="@string/aj4" android:l2="contact_info_more" android:lj="@layout/a3s" />
+    <com.tencent.mm.plugin.profile.ui.ContactSocialInfoPreference android:i="@string/al7" android:l2="contact_info_social" android:lj="@layout/a3s" />
+    <com.tencent.mm.plugin.profile.ui.FriendPreference android:i="@string/bi0" android:l2="contact_info_facebook" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/ama" android:l2="contact_info_verifyuser" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.profile.ui.NormalUserFooterPreference android:l2="contact_info_footer_normal" android:lj="@layout/lw" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.TextPreference android:l2="contact_info_hint" />
+</PreferenceScreen>

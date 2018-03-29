@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/c1" android:textColor="@color/bp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/a0k" android:background="@drawable/fu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gf" android:layout_marginBottom="@dimen/gf" android:singleLine="true" />
+    <Button android:textSize="@dimen/ha" android:textColor="@color/rn" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/a0j" android:background="@drawable/cs" android:visibility="gone" android:layout_width="141.0dip" android:layout_height="35.0dip" android:text="@string/a6c" android:maxLines="3" />
+    <View android:id="@id/a0l" android:background="@drawable/fw" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="@dimen/gf" android:layout_marginRight="@dimen/c2" android:layerType="software" />
+</LinearLayout>

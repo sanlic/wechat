@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ei" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fi" android:background="@color/lb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/cc_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/fj" android:background="@color/ei" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/qa" android:dividerHeight="0.0px" android:layout_below="@id/fi" />
+    <com.tencent.mm.pluginsdk.ui.MultiSelectContactView android:id="@id/fk" android:paddingLeft="@dimen/i5" android:paddingRight="@dimen/i5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fi" />
+    <ImageView android:id="@id/fl" android:background="@drawable/ae8" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fk" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/fp" android:background="@color/ei" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fk">
+        <TextView android:textColor="@color/rn" android:id="@id/fq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/bxl" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/ha" android:textColor="@color/lm" android:gravity="center_vertical" android:id="@id/fr" android:background="#f2ebebeb" android:padding="@dimen/h_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableRight="@drawable/nq" android:drawablePadding="@dimen/h_" android:layout_below="@id/fk" />
+</RelativeLayout>

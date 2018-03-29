@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference android:i="@string/eep" android:l2="settings_record" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/eeo" android:l2="settings_clear" android:lj="@layout/a3s" />
+    <PreferenceCategory />
+</PreferenceScreen>

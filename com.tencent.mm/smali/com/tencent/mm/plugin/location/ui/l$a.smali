@@ -1,0 +1,31 @@
+.class public interface abstract Lcom/tencent/mm/plugin/location/ui/l$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/location/ui/l;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract aRp()V
+.end method
+
+.method public abstract aRq()V
+.end method
+
+.method public abstract aRr()V
+.end method
+
+.method public abstract fX(Z)V
+.end method
+
+.method public abstract qM(I)V
+.end method

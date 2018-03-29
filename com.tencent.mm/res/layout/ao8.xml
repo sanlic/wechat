@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#fff0eff4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/gf" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/bt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h_" style="@style/MMFullLineItem">
+            <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/i4">
+                <TextView android:textSize="@dimen/ha" android:textColor="@color/lp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h_" android:text="@string/ed9" android:layout_weight="1.0" />
+                <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/dxr" android:layout_width="@dimen/ig" android:layout_height="@dimen/id" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/g5" android:textColor="@color/iq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/eda" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/g5" android:textColor="@color/lp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/c2" android:layout_marginBottom="24.0dip" android:text="@string/ed_" android:lineSpacingExtra="@dimen/i5" android:textIsSelectable="true" />
+        <TextView android:textSize="@dimen/g5" android:textColor="@color/iq" android:id="@id/dxs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/c2" android:layout_marginBottom="10.0dip" android:text="@string/edb" android:lineSpacingExtra="@dimen/i5" android:textIsSelectable="true" />
+        <View android:background="@drawable/b7" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2" android:layout_marginTop="@dimen/h_" android:layout_marginRight="@dimen/c2">
+            <Button android:id="@id/d1q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edd" style="@style/MMSolidRedMiddleButton" />
+            <Button android:id="@id/dxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h_" android:text="@string/edf" style="@style/MMSolidWhiteMiddleButton" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

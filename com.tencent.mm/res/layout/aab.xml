@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <RelativeLayout android:orientation="vertical" android:id="@id/csa" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/ha" android:textColor="@color/rj" android:gravity="center_horizontal" android:id="@id/csb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/e4t" android:layout_centerVertical="true" />
+            <View android:id="@id/csc" android:background="@color/rl" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/csd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/ha" android:textColor="@color/r9" android:gravity="center_horizontal" android:id="@id/cse" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/e4u" android:layout_centerVertical="true" />
+            <View android:id="@id/csf" android:background="@color/rl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/oh" android:layout_width="fill_parent" android:layout_height="@dimen/dg" />
+    <RelativeLayout android:id="@id/csg" android:layout_width="fill_parent" android:layout_height="400.0dip">
+        <TextView android:textSize="@dimen/ha" android:textColor="@color/iq" android:id="@id/csh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e4g" android:layout_centerInParent="true" />
+        <com.tencent.mm.ui.ListViewInScrollView android:id="@id/csi" android:background="@null" android:focusable="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/ps" android:transcriptMode="disabled" android:cacheColorHint="@android:color/transparent" android:divider="@color/oh" android:dividerHeight="@dimen/dh" android:headerDividersEnabled="true" style="@style/NavPage" />
+        <com.tencent.mm.ui.ListViewInScrollView android:id="@id/csj" android:background="@null" android:focusable="true" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/ps" android:transcriptMode="disabled" android:cacheColorHint="@android:color/transparent" android:divider="@color/oh" android:dividerHeight="@dimen/dh" android:headerDividersEnabled="true" style="@style/NavPage" />
+    </RelativeLayout>
+</LinearLayout>

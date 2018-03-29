@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:g="false" android:h="@string/dbl" android:i="@string/dbi" android:l2="sns_outside_permiss" android:l7="false" />
+    <CheckBoxPreference android:g="false" android:h="@string/d9n" android:i="@string/d9k" android:l2="sns_black_permiss" android:l7="false" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/rn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/rt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textColor="@color/s6" android:layout_gravity="left" android:id="@id/ru" android:background="@drawable/qb" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/rv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="82.0dip" />
+    <TextView android:textSize="@dimen/ha" android:textColor="@color/bm" android:gravity="center_horizontal" android:id="@id/rw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="25.0dip" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/g5" android:textColor="@color/bl" android:gravity="center_horizontal" android:id="@id/rx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="30.0dip" android:includeFontPadding="false" android:lineSpacingExtra="6.0dip" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="32.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/bi" android:gravity="center" android:id="@id/ry" android:background="@drawable/qb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <Button android:gravity="center" android:id="@id/rz" android:layout_width="163.0dip" android:layout_height="32.0dip" android:layout_marginBottom="50.0dip" android:layout_above="@id/ry" android:layout_centerHorizontal="true" style="@style/MMlineGreenMiddleButton" />
+    </RelativeLayout>
+</LinearLayout>

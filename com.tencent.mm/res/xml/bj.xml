@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:i="@string/cyf" />
+    <Preference android:i="@string/czq" android:l2="settings_independent_password" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:i="@string/cpl" android:l2="settings_safe_device" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:i="@string/c_t" android:l2="settings_phone_security" android:lj="@layout/a3s" />
+    <Preference android:h="@string/d2r" android:i="@string/d2q" android:l2="settings_security_center" android:lj="@layout/a5m" />
+</PreferenceScreen>

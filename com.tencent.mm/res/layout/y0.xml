@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aqa" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/a3r" android:background="@color/bp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.ui.base.MMViewPager android:id="@id/a3t" android:background="@null" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:spacing="0.0dip" android:layout_below="@id/bnm" android:unselectedAlpha="1.2" />
+    <RelativeLayout android:id="@id/bnn" android:paddingLeft="@dimen/gf" android:paddingRight="@dimen/gf" android:layout_width="fill_parent" android:layout_height="@dimen/r4" android:layout_alignParentTop="true">
+        <ViewStub android:id="@id/bno" android:layout="@layout/y3" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" />
+        <ImageView android:id="@id/bnp" android:visibility="gone" android:layout_width="@dimen/r6" android:layout_height="@dimen/r5" android:src="@raw/media_preview_btn_close" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/aqh" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/r4" android:layout_alignParentBottom="true">
+        <ViewStub android:id="@id/bnq" android:layout="@layout/y1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gf" android:layout_marginBottom="@dimen/gi" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:onClick="onClick" />
+        <ViewStub android:id="@id/bnr" android:layout="@layout/y4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gi" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ViewStub android:id="@id/bns" android:layout="@layout/y2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gf" android:layout_marginBottom="@dimen/gi" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ViewStub android:id="@id/all" android:layout="@layout/y5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/bnm" android:visibility="gone" android:layout="@layout/yc" android:layout_width="fill_parent" android:layout_height="@dimen/d5" android:layout_alignParentTop="true" />
+</RelativeLayout>

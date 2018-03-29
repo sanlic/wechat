@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/rn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dw1" android:layout_width="@dimen/gh" android:layout_height="@dimen/gh" android:layout_marginTop="@dimen/g9" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:ellipsize="end" android:id="@id/dw2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gi" android:layout_marginTop="@dimen/h_" android:layout_marginRight="@dimen/gi" android:layout_marginBottom="@dimen/go" android:maxLines="1" android:layout_below="@id/dw1" android:layout_centerHorizontal="true" style="@style/MMTextView" />
+    <TextView android:id="@id/dw3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dw2" android:layout_centerHorizontal="true" style="@style/MMBriefText" />
+    <Button android:id="@id/dw4" android:layout_marginLeft="@dimen/gi" android:layout_marginTop="@dimen/gj" android:layout_marginRight="@dimen/gi" android:layout_marginBottom="@dimen/bx" android:minWidth="220.0dip" android:text="@string/e_2" android:layout_below="@id/dw3" android:layout_centerHorizontal="true" style="@style/MMSolidGreenLargeButton" />
+    <TextView android:id="@id/dw5" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginTop="@dimen/gj" android:text="@string/e__" android:layout_below="@id/dw3" android:layout_centerHorizontal="true" style="@style/MMBriefText" />
+    <TextView android:textSize="@dimen/ha" android:textColor="@color/s_" android:id="@id/dw6" android:paddingLeft="@dimen/i8" android:paddingRight="@dimen/i8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h_" android:text="@string/e_0" android:layout_below="@id/dw5" android:layout_centerHorizontal="true" />
+</RelativeLayout>

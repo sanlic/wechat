@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/rn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" style="@style/NavPage">
+        <ImageView android:id="@id/rv" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="32.0dip" android:src="@raw/backup_move" android:scaleType="centerInside" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/bp" android:id="@id/s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="25.0dip" android:text="@string/u_" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/lp" android:id="@id/s3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/u9" />
+        <Button android:id="@id/s4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/di" android:layout_marginTop="32.0dip" android:layout_marginRight="@dimen/di" android:text="@string/u7" style="@style/MMSolidGreenLargeButton" />
+        <RelativeLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="@color/bi" android:layout_gravity="bottom" android:id="@id/s5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" android:layout_marginBottom="32.0dip" android:text="@string/ur" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

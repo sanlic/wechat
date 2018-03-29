@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/i9" android:textColor="@color/lt" android:background="@color/qa" android:paddingBottom="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/agf" style="@style/MMFullLineItem" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/m8" android:layout_width="fill_parent" android:layout_height="58.0dip" style="@style/MMFullLineItem">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/m9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/m_" android:layout_width="@dimen/h8" android:layout_height="@dimen/h8" android:src="@drawable/icon" />
+            <TextView android:textSize="@dimen/ha" android:textColor="@color/jc" android:id="@id/ma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/mb" android:layout_width="wrap_content" android:layout_height="@dimen/h8" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right" android:orientation="horizontal" android:id="@id/mc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" android:textColor="@color/jc" android:id="@id/md" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/agg" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/me" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i8" android:src="@drawable/ko" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

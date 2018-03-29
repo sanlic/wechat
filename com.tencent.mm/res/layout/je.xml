@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@null" android:paddingLeft="@dimen/gf" android:paddingTop="@dimen/i5" android:paddingRight="@dimen/gf" android:paddingBottom="@dimen/i5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/h9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textColor="@color/lp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/g2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+        <TextView android:textSize="@dimen/ia" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ag5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="1.0" style="@style/MMFontTipInList" />
+    </LinearLayout>
+    <Button android:layout_gravity="center|right" android:id="@id/agl" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kx" style="@style/MMSolidGreenSmallButton" />
+</LinearLayout>

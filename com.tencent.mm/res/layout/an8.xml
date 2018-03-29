@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/lg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WalletBody">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/e9l" style="@style/WalletDefaultText" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/i4">
+            <TextView android:gravity="center|left" android:paddingRight="5.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="80.0dip" android:text="@string/e9k" android:singleLine="true" style="@style/WalletDefaultText" />
+            <TextView android:textColor="#ff999999" android:gravity="center|left" android:id="@id/dv_" android:background="@drawable/a1" android:layout_height="fill_parent" style="@style/WalletItem" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="80.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/i4" android:text="@string/e9g" style="@style/WalletDefaultText" />
+            <EditText android:id="@id/dva" style="@style/WalletItem" />
+            <TextView android:id="@id/dvb" android:background="@drawable/a1" android:visibility="gone" style="@style/WalletItem" />
+        </LinearLayout>
+        <TextView android:textColor="#ff999999" android:id="@id/dvc" android:background="@drawable/fs" android:paddingLeft="4.0dip" android:layout_marginLeft="80.0dip" style="@style/WalletItem" />
+        <EditText android:id="@id/dvd" android:layout_marginLeft="80.0dip" style="@style/WalletItem" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gf" android:minHeight="@dimen/i4">
+            <TextView android:gravity="center|left" android:paddingRight="5.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="80.0dip" android:text="@string/e9k" android:singleLine="true" style="@style/WalletDefaultText" />
+            <TextView android:textColor="#ff999999" android:gravity="center|left" android:id="@id/dve" android:background="@drawable/a1" android:layout_height="fill_parent" style="@style/WalletItem" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="80.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/i4" android:text="@string/e9g" style="@style/WalletDefaultText" />
+            <EditText android:id="@id/dvf" style="@style/WalletItem" />
+            <TextView android:id="@id/dvg" android:background="@drawable/a1" android:visibility="gone" style="@style/WalletItem" />
+        </LinearLayout>
+        <TextView android:textColor="#ff999999" android:id="@id/dvh" android:background="@drawable/fs" android:paddingLeft="4.0dip" android:layout_marginLeft="80.0dip" style="@style/WalletItem" />
+        <EditText android:id="@id/dvi" android:layout_marginLeft="80.0dip" style="@style/WalletItem" />
+        <Button android:id="@id/akc" android:layout_width="fill_parent" android:layout_marginTop="16.0dip" android:text="@string/n_" style="@style/MMSolidGreenLargeButton" />
+    </LinearLayout>
+</ScrollView>

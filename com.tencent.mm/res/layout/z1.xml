@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/rn" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="?be" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/bqq" android:layout_width="fill_parent" android:layout_height="176.0dip">
+            <TextView android:textSize="@dimen/bq" android:textColor="@color/pw" android:id="@id/br3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <FrameLayout android:id="@id/br4" android:background="@color/rn" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/bq" android:textColor="@color/pw" android:id="@id/br5" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp" android:text="@string/doc" android:layout_centerHorizontal="true" />
+            </FrameLayout>
+            <EditText android:textSize="@dimen/bo" android:textColor="@color/pv" android:gravity="center" android:id="@id/br6" android:background="@color/qa" android:paddingLeft="@dimen/av" android:paddingRight="@dimen/av" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:cursorVisible="false" android:singleLine="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:id="@id/br7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl" android:layout_marginTop="@dimen/bj" android:layout_marginRight="@dimen/bl" android:layout_marginBottom="@dimen/bj" android:layout_alignParentBottom="true">
+                <com.tencent.mm.plugin.ipcall.ui.IPCallFuncButton android:id="@id/br8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" custom:i_="@drawable/agj" custom:ia="@drawable/agk" custom:ib="@drawable/agj" custom:id="true" />
+                <com.tencent.mm.plugin.ipcall.ui.IPCallFuncButton android:id="@id/br9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" custom:i_="@drawable/agh" custom:ia="@drawable/agi" custom:id="true" />
+                <com.tencent.mm.plugin.ipcall.ui.IPCallFuncButton android:id="@id/br_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" custom:i_="@drawable/agl" custom:ia="@drawable/agm" custom:ib="@drawable/agl" custom:id="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/f1" android:gravity="center" android:id="@id/bra" android:background="@color/qa" android:paddingLeft="@dimen/av" android:paddingRight="@dimen/av" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:cursorVisible="false" android:singleLine="true" android:layout_below="@id/br6" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/brb" android:background="@color/ps" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/bqq" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/brc" android:layout_width="@dimen/n" android:layout_height="@dimen/n" android:src="@drawable/agn" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/brd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" />
+            <ImageButton android:id="@id/bre" android:background="@null" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="14.0dip" android:src="@drawable/il" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <com.tencent.mm.plugin.ipcall.ui.DialPad android:id="@id/br2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bre" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/brf" android:background="@color/qa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@raw/ipcall_mini_action" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/a3" android:layout_marginBottom="@dimen/h_" style="@style/ChattingUISplit" />
+    <LinearLayout android:gravity="center" style="@style/ChattingUIContent">
+        <TextView android:gravity="left" android:id="@id/j_" android:background="@drawable/e7" android:paddingLeft="@dimen/go" android:paddingRight="@dimen/go" android:clickable="true" android:layout_marginLeft="@dimen/gi" android:layout_marginRight="@dimen/gi" style="@style/ChattingUISystem" />
+    </LinearLayout>
+</LinearLayout>

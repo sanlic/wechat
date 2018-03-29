@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/d4k" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/oc" android:layout_width="0.0dip" android:layout_height="@dimen/dg" android:layout_weight="1.0" />
+        <com.tencent.mm.ui.widget.MMTextView android:textSize="16.0dip" android:textColor="#ffb2b2b2" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/d7g" android:singleLine="true" android:includeFontPadding="false" />
+        <View android:background="@color/oc" android:layout_width="0.0dip" android:layout_height="@dimen/dg" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+        <LinearLayout android:gravity="center" android:id="@id/d4l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/d4m" android:layout_width="@dimen/u2" android:layout_height="@dimen/u2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/d4n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/d4o" android:layout_width="@dimen/u2" android:layout_height="@dimen/u2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/d4p" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/d4q" android:layout_width="@dimen/u2" android:layout_height="@dimen/u2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/d4r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/d4s" android:layout_width="@dimen/u2" android:layout_height="@dimen/u2" android:src="@drawable/oe" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/oc" android:layout_width="fill_parent" android:layout_height="@dimen/dg" />
+</LinearLayout>

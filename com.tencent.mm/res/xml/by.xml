@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:i="@string/dy4" />
+    <IconPreference android:i="@string/dxs" android:l2="wallet_lock_fingerprint" android:lj="@layout/a3s" />
+    <IconPreference android:i="@string/dxz" android:l2="wallet_lock_gesture" android:lj="@layout/a3s" />
+    <IconPreference android:i="@string/dxm" android:l2="wallet_lock_close" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/bh7" android:l2="wallet_lock_modify_gesture" android:lj="@layout/a3s" />
+</PreferenceScreen>

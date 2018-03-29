@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.subapp.ui.openapi.AppHeaderPreference android:l2="app_profile_header" android:lj="@layout/cg" />
+    <PreferenceCategory />
+    <Preference android:i="@string/o1" android:l2="app_profile_add" android:lj="@layout/yg" />
+    <Preference android:i="@string/o2" android:l2="app_profile_remove" android:lj="@layout/a0e" />
+    <PreferenceCategory android:l2="app_profile_cat" />
+</PreferenceScreen>

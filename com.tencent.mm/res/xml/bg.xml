@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" xmlns:mm="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.DialogPreference mm:g="false" mm:i="@string/d2w" mm:eh="@array/y" mm:ei="@array/z" mm:l2="settings_sex" mm:lj="@layout/a3s" />
+    <Preference mm:i="@string/cys" mm:l2="settings_district" mm:lj="@layout/a3s" />
+    <com.tencent.mm.pluginsdk.ui.preference.SignaturePreference mm:i="@string/d33" mm:l2="settings_signature" mm:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference mm:i="@string/d03" mm:l2="settings_linkedin" mm:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/lg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mm="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ia" android:textColor="#ff888888" android:gravity="center" android:id="@id/btw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:text="@string/bpi" />
+    <com.tencent.mm.plugin.ipcall.ui.IPCallShareViewPager android:id="@id/btx" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/aj5" android:fadeScrollbars="false" />
+    <com.tencent.mm.ui.base.MMDotView android:gravity="center" android:orientation="horizontal" android:id="@id/bty" android:paddingTop="@dimen/gw" android:paddingBottom="@dimen/gw" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" mm:iz="1" />
+</LinearLayout>

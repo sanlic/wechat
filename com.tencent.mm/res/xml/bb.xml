@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <Preference android:i="@string/d3v" android:l2="settings_take_photo_auto_save_tip" android:lj="@layout/a57" />
+    <CheckBoxPreference android:i="@string/d3u" android:l2="settings_take_photo_auto_save_photo" android:l7="false" />
+    <CheckBoxPreference android:i="@string/d3w" android:l2="settings_take_photo_auto_save_video" android:l7="false" />
+</PreferenceScreen>

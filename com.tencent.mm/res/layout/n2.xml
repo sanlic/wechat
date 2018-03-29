@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/qg" android:background="@color/rn" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/hu" android:background="@drawable/age" android:paddingLeft="@dimen/c2" android:paddingTop="@dimen/i5" android:paddingRight="@dimen/c2" android:paddingBottom="@dimen/i5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+        <ImageView android:id="@id/aro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/searchbar_icon" />
+        <EditText android:textSize="@dimen/ha" android:textColor="@color/lp" android:textColorHint="@color/in" android:gravity="center_vertical" android:id="@id/arp" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bt" android:minHeight="@dimen/g_" android:hint="@string/oh" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:id="@id/qh" android:background="@color/lg" android:scrollbars="vertical" style="@style/MMList" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:i="@string/d3_" android:l2="settings_sns_bg_select_from_album" android:lj="@layout/a3s" />
+    <Preference android:i="@string/d3a" android:l2="settings_sns_bg_take_photo" android:lj="@layout/a3s" />
+    <PreferenceCategory />
+    <com.tencent.mm.plugin.sns.ui.SnsArtistPreference android:i="@string/d39" android:l2="settings_sns_bg_select_bg" android:lj="@layout/a3s" />
+    <PreferenceCategory />
+</PreferenceScreen>

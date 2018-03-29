@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f" parent="@style/ee">
+        <item name="m9">f0</item>
+        <item name="m_">cp</item>
+    </style>
+</resources>

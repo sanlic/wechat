@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/lg" android:paddingLeft="@dimen/gf" android:paddingRight="@dimen/gf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gf">
+        <TextView android:textSize="@dimen/by" android:textColor="@color/lp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i4" android:text="@string/ea7" android:drawableTop="@drawable/ajg" android:drawablePadding="@dimen/gj" />
+        <TextView android:textSize="@dimen/ha" android:textColor="@color/iq" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gj" android:text="@string/ead" android:drawableTop="@drawable/a31" android:drawablePadding="@dimen/gf" />
+        <Button android:id="@id/dvy" android:layout_width="fill_parent" android:text="@string/cd6" style="@style/MMSolidGreenLargeButton" />
+    </LinearLayout>
+</ScrollView>

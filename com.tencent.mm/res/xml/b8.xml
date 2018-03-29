@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:i="@string/advance_settings" android:l2="settings_advance_settings_preference" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:i="@string/cxt" android:l2="settings_account_info" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/d1c" android:l2="settings_notification_preference" android:lj="@layout/a3s" />
+    <Preference android:i="@string/cxw" android:l2="settings_active_time" android:lj="@layout/a3s" />
+    <Preference android:i="@string/cyh" android:l2="settings_chatting" android:lj="@layout/a3s" />
+    <IconPreference android:i="@string/cxr" android:l2="settings_about_privacy" android:lj="@layout/a3s" />
+    <Preference android:i="@string/cxo" android:l2="settings_about_device" android:lj="@layout/a3s" />
+    <IconPreference android:i="@string/cxs" android:l2="settings_about_system" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <IconPreference android:i="@string/cxq" android:l2="settings_about_micromsg" />
+    <Preference android:i="@string/cz_" android:l2="settings_feedback" android:lj="@layout/a3s" />
+    <Preference android:i="@string/czo" android:l2="settings_hardcoder" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <IconPreference android:i="@string/d52" android:l2="settings_welab" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/d08" android:l2="settings_logout" android:lj="@layout/a3s" />
+    <PreferenceCategory />
+</PreferenceScreen>

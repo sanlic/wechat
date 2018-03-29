@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.MyGamePicStyleView android:orientation="horizontal" android:id="@id/bha" android:background="@drawable/o0" android:padding="@dimen/fk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/h3" android:id="@id/bhb" android:layout_width="60.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/he" android:ellipsize="end" android:id="@id/bhc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ff" android:singleLine="true" android:layout_toRightOf="@id/bhb" />
+            <ImageView android:id="@id/bhd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fv" android:scaleType="fitXY" android:layout_below="@id/bhb" />
+        </RelativeLayout>
+    </com.tencent.mm.plugin.game.ui.MyGamePicStyleView>
+</LinearLayout>

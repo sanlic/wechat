@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.favorite.ui.base.FavSearchActionView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flowlayout="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hg" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/i5">
+        <ImageView android:id="@id/hh" android:background="@null" android:paddingLeft="@dimen/i5" android:paddingRight="@dimen/i5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a7" android:contentDescription="@string/en" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/hi" android:background="@color/a_" android:layout_width="@dimen/dg" android:layout_height="@dimen/gi" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/agd" android:paddingLeft="6.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/i5" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+        <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/actionbar_search_icon" />
+        <ScrollView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="never">
+            <com.tencent.mm.plugin.favorite.ui.base.FavTagPanel android:id="@id/b5b" android:layout_width="fill_parent" android:layout_height="wrap_content" flowlayout:i3="@dimen/bx" flowlayout:i4="@dimen/bx" />
+        </ScrollView>
+        <ImageButton android:id="@id/b5c" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i5" android:src="@drawable/nq" android:contentDescription="@string/ae1" />
+    </LinearLayout>
+</com.tencent.mm.plugin.favorite.ui.base.FavSearchActionView>

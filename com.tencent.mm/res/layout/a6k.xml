@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ei" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/cbd" android:background="@drawable/l6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:minHeight="@dimen/i4">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/kf" android:layout_width="@dimen/cu" android:layout_height="@dimen/cu" android:layout_marginRight="8.0dip" />
+        <TextView android:textColor="@color/rn" android:layout_gravity="center_vertical" android:id="@id/kh" android:background="@color/qa" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/s1" android:background="@drawable/k_" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" android:layout_marginLeft="@dimen/i5" android:layout_marginRight="@dimen/i5" />
+    </LinearLayout>
+</RelativeLayout>

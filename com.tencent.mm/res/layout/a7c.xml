@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/lh" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="43.0dip" android:paddingTop="33.0dip" android:paddingRight="43.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="center" android:id="@id/cec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a30" />
+            <TextView android:id="@id/ced" android:text="@string/dis" style="@style/net_diagnose_report_result" />
+            <TextView android:id="@id/cee" android:visibility="gone" android:text="@string/dgh" style="@style/net_diagnose_report_status" />
+            <LinearLayout android:orientation="vertical" android:id="@id/cef" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/ceg" android:visibility="gone" android:layout_marginTop="20.0dip" android:text="@string/dku" style="@style/MMSolidGreenLargeButton" />
+                <TextView android:id="@id/ceh" android:visibility="gone" android:layout_marginTop="5.0dip" android:text="@string/clu" style="@style/net_diagnose_report_status" />
+                <Button android:id="@id/cei" android:visibility="gone" android:layout_marginTop="20.0dip" android:text="@string/cw8" style="@style/MMSolidGreenLargeButton" />
+                <TextView android:id="@id/cej" android:visibility="gone" android:layout_marginTop="5.0dip" android:layout_marginBottom="20.0dip" android:text="@string/cw9" style="@style/net_diagnose_report_status" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

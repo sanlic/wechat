@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.address.ui.MMScrollView android:id="@id/atm" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:address="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/gf" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/dk4" android:inputType="text" app:a_="@string/d9" app:aa="@string/d8" app:ab="ca" app:ag="@raw/wallet_address_contact_icon" style="@style/MMFormInputView" />
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/dk5" android:inputType="phone" android:imeOptions="actionDone" app:a_="@string/dd" app:aa="@string/dc" app:ab="cb" style="@style/MMFormInputView" />
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/dk6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/i4" android:inputType="text" app:a_="@string/co" app:aa="@string/cn" app:ab="c_" app:ad="@null" app:ae="false" app:ag="@raw/wallet_address_location_icon" />
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/dk7" android:layout_height="wrap_content" android:minHeight="@dimen/i4" android:inputType="text" app:a_="@string/cr" app:aa="@string/cq" app:ah="false" style="@style/MMFormInputView" />
+        <com.tencent.mm.plugin.address.ui.AddrEditView android:gravity="center_vertical" android:id="@id/dk8" android:inputType="number" app:a_="@string/df" app:aa="@string/de" style="@style/MMFormInputView" />
+    </LinearLayout>
+</com.tencent.mm.plugin.address.ui.MMScrollView>

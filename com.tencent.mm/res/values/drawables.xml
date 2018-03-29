@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="t1">#19000000</item>
+    <item type="drawable" name="t2">#19ffffff</item>
+    <item type="drawable" name="t3">#fff3f3f3</item>
+    <item type="drawable" name="t4">@color/hp</item>
+    <item type="drawable" name="t5">@color/rn</item>
+    <item type="drawable" name="t6">#3333b5e5</item>
+    <item type="drawable" name="t7">#bf000000</item>
+    <item type="drawable" name="t8">#00000000</item>
+    <item type="drawable" name="t9">#ffc7c7c7</item>
+    <item type="drawable" name="t_">#ffffffff</item>
+</resources>

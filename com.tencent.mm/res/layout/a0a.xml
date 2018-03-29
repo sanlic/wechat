@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/bvs" android:background="@drawable/fs" android:paddingLeft="@dimen/gf" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/gf" android:paddingBottom="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bvt" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:layout_width="@dimen/i3" android:layout_height="@dimen/h8" android:src="@raw/sns_shoot_location_normal" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/ha" android:textColor="@color/lp" android:ellipsize="end" android:gravity="center|left" android:id="@id/bvr" android:layout_width="wrap_content" android:layout_height="@dimen/h8" android:layout_marginLeft="@dimen/i5" android:layout_marginRight="@dimen/i5" android:text="@string/dav" android:singleLine="true" android:layout_toRightOf="@id/bvt" />
+        <TextView android:textSize="@dimen/g5" android:textColor="@color/iq" android:gravity="center|left" android:id="@id/bvu" android:layout_width="wrap_content" android:layout_height="@dimen/h8" android:layout_marginLeft="@dimen/i5" android:layout_marginRight="@dimen/i5" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/bvv" android:background="@drawable/fs" android:paddingLeft="@dimen/gf" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/gf" android:paddingBottom="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bvw" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:visibility="invisible" android:layout_width="@dimen/i3" android:layout_height="@dimen/h8" android:src="@raw/sns_shoot_star_normal" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/ha" android:textColor="@color/lp" android:ellipsize="end" android:gravity="center|left" android:id="@id/bvx" android:layout_width="wrap_content" android:layout_height="@dimen/h8" android:layout_marginLeft="@dimen/i5" android:layout_marginRight="@dimen/i5" android:text="@string/dc4" android:singleLine="true" android:layout_toRightOf="@id/bvw" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/bvy" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:layout_width="@dimen/i3" android:layout_height="@dimen/h8" android:src="@raw/sns_shoot_location_pressed" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/bvz" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:layout_width="@dimen/i3" android:layout_height="@dimen/h8" android:src="@raw/sns_shoot_location_normal" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/bw0" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:layout_width="27.0dip" android:layout_height="@dimen/h8" android:src="@raw/sns_shoot_location_normal" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/bw1" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:layout_width="@dimen/i3" android:layout_height="@dimen/h8" android:src="@raw/sns_shoot_location_normal" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/bw2" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/bt" android:layout_width="@dimen/i3" android:layout_height="@dimen/h8" android:src="@raw/sns_shoot_location_normal" android:scaleType="fitCenter" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

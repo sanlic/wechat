@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.location.ui.NewMyLocationButton android:id="@id/cew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/tb" android:layout_marginBottom="@dimen/tb" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/cex" android:background="@color/rn" android:paddingLeft="@dimen/tb" android:paddingTop="@dimen/rc" android:paddingRight="@dimen/tb" android:paddingBottom="@dimen/rc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/de" android:textColor="@color/jk" android:gravity="center_vertical" android:id="@id/cey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:minWidth="40.0dip" android:text="" android:maxLines="2" />
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tr" android:src="@drawable/aq4" android:layout_toRightOf="@id/cey" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/jj" android:id="@id/cez" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tr" android:maxWidth="250.0dip" android:minWidth="40.0dip" android:text="" android:maxLines="4" />
+        </LinearLayout>
+        <ImageButton android:id="@id/cf0" android:background="@drawable/j0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

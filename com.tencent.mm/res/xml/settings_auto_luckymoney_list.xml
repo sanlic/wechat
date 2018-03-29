@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:i="@string/auto_luckymoney_people_white_list" android:l2="people_white_list" />
+    <PreferenceTitleCategory android:i="@string/auto_luckymoney_people_black_list" android:l2="people_black_list" />
+    <PreferenceTitleCategory android:i="@string/auto_luckymoney_chatroom_white_list" android:l2="chatroom_white_list" />
+    <PreferenceTitleCategory android:i="@string/auto_luckymoney_chatroom_black_list" android:l2="chatroom_black_list" />
+
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference android:l2="roominfo_contact_anchor" />
+</PreferenceScreen>

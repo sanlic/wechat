@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.friend.FriendSnsPreference android:i="@string/d_2" android:l2="album_dyna_photo_ui_title" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android:i="@string/b60" android:o="@raw/find_more_friend_scan" android:l2="find_friends_by_qrcode" />
+    <NormalIconPreference android:i="@string/d70" android:o="@raw/find_more_friend_shake" android:l2="find_friends_by_shake" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android:i="@string/b67" android:o="@raw/find_more_friend_look" android:l2="find_friends_by_look" />
+    <NormalIconPreference android:i="@string/b6a" android:o="@raw/find_more_friend_search" android:l2="find_friends_by_search" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android:i="@string/c58" android:o="@raw/find_more_friend_near_icon" android:l2="find_friends_by_near" />
+    <NormalIconPreference android:i="@string/a1k" android:o="@raw/find_more_friend_bottle" android:l2="voice_bottle" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android:l2="jd_market_entrance" />
+    <NormalIconPreference android:i="@string/bfm" android:o="@raw/userguide_gamecenter_icon" android:l2="more_tab_game_recommend" />
+    <NormalIconPreference android:i="@string/atw" android:o="@raw/find_more_emji" android:l2="settings_emoji_store" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android:i="@string/ft" android:o="@drawable/qu" android:l2="app_brand_entrance" />
+    <PreferenceSmallCategory />
+    <NormalIconPreference android:i="@string/bmw" android:o="@raw/find_more_friend_ipcall" android:l2="ip_call_entrance" />
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FavListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/ej" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include layout="@layout/fav_listitem_header" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ei">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.tencent.mm.ui.MMImageView android:id="@id/b4c" android:padding="0.0dip" android:layout_width="230.0dip" android:layout_height="138.0dip" android:scaleType="centerCrop" android:contentDescription="@string/el" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/b4l" android:background="#19000000" android:layout_width="230.0dip" android:layout_height="138.0dip" android:src="@drawable/lh" android:scaleType="center" />
+                    <TextView android:textSize="@dimen/em" android:textColor="@color/gg" android:layout_gravity="bottom|center|right" android:id="@id/b4m" android:background="@null" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{11:32}" />
+                    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/b4n" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_k" android:scaleType="center" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/fav_listitem_edit_view" />
+    </LinearLayout>
+    <View android:background="@color/gi" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include layout="@layout/fav_listitem_footer" />
+</LinearLayout>

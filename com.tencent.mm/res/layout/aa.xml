@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/s"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hg" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/i5">
+        <ImageView android:id="@id/hh" android:background="@null" android:paddingLeft="@dimen/i5" android:paddingRight="@dimen/i5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a7" android:contentDescription="@string/en" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/hi" android:background="@color/a_" android:layout_width="@dimen/dg" android:layout_height="@dimen/gi" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <EditText android:textSize="@dimen/ha" android:textColor="@color/rn" android:textColorHint="@color/ir" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/hk" android:background="@drawable/agd" android:paddingRight="@dimen/h8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="1024.0dip" android:minHeight="@dimen/h8" android:hint="@string/oh" android:singleLine="true" android:drawableLeft="@raw/actionbar_search_icon" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@null" />
+        <ImageButton android:id="@id/hl" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nq" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <Button android:layout_gravity="center_vertical" android:id="@id/hm" android:layout_marginLeft="@dimen/i5" android:layout_marginRight="@dimen/i5" android:text="@string/oh" style="@style/MMSolidGreenSmallButton" />
+</LinearLayout>

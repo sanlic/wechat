@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceTitleCategory android:i="@string/revoke" />
+    <CheckBoxPreference android:i="@string/anti_revoke" android:l2="settings_anti_revoke" />
+
+    <PreferenceTitleCategory android:i="@string/luckymoney" />
+    <CheckBoxPreference android:i="@string/auto_luckymoney" android:l2="settings_auto_luckymoney" />
+    <CheckBoxPreference android:i="@string/auto_luckymoney_only_chatroom" android:l2="settings_auto_luckymoney_only_chatroom" />
+    <CheckBoxPreference android:i="@string/auto_luckymoney_only_others" android:l2="settings_auto_luckymoney_only_others" />
+    <EditPreference android:i="@string/auto_luckymoney_delay" android:l2="settings_auto_luckymoney_delay" />
+
+    <Preference android:i="@string/auto_luckymoney_chatroom_which_list" android:l2="settings_auto_luckymoney_chatroom_which_list" />
+    <Preference android:i="@string/auto_luckymoney_chatroom_white_list" android:l2="settings_auto_luckymoney_chatroom_white_list" />
+    <Preference android:i="@string/auto_luckymoney_chatroom_black_list" android:l2="settings_auto_luckymoney_chatroom_black_list" />
+
+    <Preference android:i="@string/auto_luckymoney_people_which_list" android:l2="settings_auto_luckymoney_people_which_list" />
+    <Preference android:i="@string/auto_luckymoney_people_white_list" android:l2="settings_auto_luckymoney_people_white_list" />
+    <Preference android:i="@string/auto_luckymoney_people_black_list" android:l2="settings_auto_luckymoney_people_black_list" />
+
+</PreferenceScreen>

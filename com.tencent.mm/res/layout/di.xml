@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/s7" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/a_4" android:scaleType="centerInside" />
+    <TextView android:textSize="30.0dip" android:textColor="@color/lp" android:gravity="center" android:id="@id/s8" android:paddingLeft="@dimen/c2" android:paddingRight="@dimen/c2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/w4" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff999999" android:id="@id/s9" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="86M/1024M" />
+    <ProgressBar android:id="@id/j6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:max="100" android:progress="0" style="?android:attr/progressBarStyleHorizontal" />
+    <Button android:id="@id/s_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/di" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/di" android:text="@string/uc" style="@style/MMSolidGreenLargeButton" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ff999999" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/sa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/vv" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/ayb" android:background="@color/lg" style="@style/MMList" />
+    <TextView android:textColor="@color/lp" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/ayc" android:paddingLeft="@dimen/gn" android:paddingTop="220.0dip" android:paddingRight="@dimen/gn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/MMFontEmptyMsgLarge" />
+</LinearLayout>

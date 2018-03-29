@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/um" android:layout_width="fill_parent" android:layout_height="@dimen/h9" android:minHeight="@dimen/h9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/a_2" android:layout_width="@dimen/h3" android:layout_height="@dimen/h3" android:layout_marginLeft="@dimen/i5" android:layout_marginRight="@dimen/i5" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/iq" android:id="@id/a_3" android:background="@drawable/cr" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/cmt" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:id="@id/a_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="{nick}" android:singleLine="true" android:layout_toLeftOf="@id/a_3" android:layout_toRightOf="@id/a_2" android:layout_centerVertical="true" style="@style/MMFontTitleInList" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+.class public interface abstract Lcom/tencent/mm/plugin/appbrand/n;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract UA()I
+.end method
+
+.method public abstract UB()Lcom/tencent/mm/plugin/appbrand/task/AppBrandRemoteTaskController$c;
+.end method
+
+.method public abstract a(Lcom/tencent/mm/plugin/appbrand/e;)Lcom/tencent/mm/plugin/appbrand/e;
+.end method
+
+.method public abstract a(Lcom/tencent/mm/plugin/appbrand/e;Lcom/tencent/mm/plugin/appbrand/config/AppBrandInitConfig;Lcom/tencent/mm/plugin/appbrand/report/AppBrandStatObject;)V
+.end method
+
+.method public abstract b(Lcom/tencent/mm/plugin/appbrand/e;)Z
+.end method
+
+.method public abstract c(Lcom/tencent/mm/plugin/appbrand/e;)V
+.end method
+
+.method public abstract close()V
+.end method
+
+.method public abstract finish()V
+.end method

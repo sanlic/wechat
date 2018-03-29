@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/ur" android:textColor="@color/rp" android:ellipsize="end" android:gravity="center|left" android:id="@id/dkh" android:background="@drawable/qk" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/up" android:maxLines="2" />
+        <LinearLayout android:orientation="vertical" android:background="@color/lg" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dkh" android:layout_alignWithParentIfMissing="true" style="@style/WalletBody">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/dkp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/aoy" />
+            <TextView android:textSize="@dimen/de" android:textColor="@color/bp" android:layout_gravity="center_horizontal" android:id="@id/ht" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i5" android:text="@string/dqm" />
+            <TextView android:textSize="42.0dip" android:layout_gravity="center_horizontal" android:id="@id/dkq" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WalletDefaultText" />
+            <Button android:id="@id/akc" android:layout_width="fill_parent" android:layout_marginTop="30.0dip" android:text="@string/dql" style="@style/WalletLineButton" />
+            <Button android:textColor="@color/s2" android:id="@id/dkr" android:background="@drawable/cr" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginTop="@dimen/c7" android:text="@string/dqi" style="@style/WalletLineButton" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dks" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gf">
+                <ImageView android:id="@id/dkt" android:visibility="visible" android:layout_width="@dimen/gf" android:layout_height="@dimen/gf" android:layout_marginRight="@dimen/i8" android:src="@drawable/agu" />
+                <TextView android:textSize="@dimen/g5" android:textColor="@color/qz" android:id="@id/dku" android:paddingTop="1.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <ImageView android:id="@id/dkv" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="7.0dip" android:src="@drawable/qt" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/i5" android:layout_weight="1.0">
+                <TextView android:textColor="@color/jd" android:id="@id/dkw" android:paddingTop="5.0dip" android:visibility="gone" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/dqk" style="@style/WalletPowerByTenpayTips" />
+                <TextView android:id="@id/dkx" android:paddingTop="3.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" style="@style/WalletPowerByTenpayTips" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

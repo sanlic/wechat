@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameClassifyView android:orientation="vertical" android:id="@id/be9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/gw" style="@style/GameModuleDividedView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/be_" android:layout_width="fill_parent" android:layout_height="@dimen/fn" />
+        <ImageView android:id="@id/bce" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@color/hh" />
+    </com.tencent.mm.plugin.game.ui.GameClassifyView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/o3" android:paddingTop="@dimen/gi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/ib" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:profile="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView android:id="@id/ao5" android:layout_width="fill_parent" android:layout_height="wrap_content" profile:i="@string/bie" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView android:id="@id/ao6" android:layout_width="fill_parent" android:layout_height="wrap_content" profile:i="@string/al8" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView android:id="@id/ao7" android:layout_width="fill_parent" android:layout_height="wrap_content" profile:i="@string/al2" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView android:id="@id/ao8" android:layout_width="fill_parent" android:layout_height="wrap_content" profile:i="@string/al6" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView android:id="@id/ao9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" profile:i="@string/ah0" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView android:id="@id/ao_" android:layout_width="fill_parent" android:layout_height="wrap_content" profile:i="@string/akz" />
+    <com.tencent.mm.plugin.profile.ui.ProfileNormalItemView android:id="@id/aoa" android:layout_width="fill_parent" android:layout_height="wrap_content" profile:i="@string/aly" />
+</LinearLayout>

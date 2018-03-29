@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.tools.SquareImageView android:id="@id/bna" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="14.0sp" android:textColor="#fffefefe" android:ellipsize="end" android:id="@id/bnb" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i5" android:layout_marginTop="@dimen/gw" android:text="wechatfile" android:maxLines="2" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/bnc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/bnd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i5" android:layout_marginBottom="@dimen/i5" android:src="@raw/app_attach_file_icon_unknow" android:adjustViewBounds="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/bne" android:background="@drawable/ag9" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/bnf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/er" android:src="@raw/app_attach_file_icon_video_in_gird" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/ha" android:textColor="@color/rp" android:id="@id/bng" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="01:55" android:maxLines="1" android:layout_toRightOf="@id/bnf" android:layout_alignBaseline="@id/bnf" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bnh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/bna">
+        <View android:background="@raw/app_attach_file_icon_sight_in_gird" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/bni" android:layout_alignParentBottom="true" />
+        <LinearLayout android:id="@id/bni" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i5" android:layout_marginTop="4.0dip" android:layout_marginBottom="@dimen/i5" android:src="@raw/app_attach_file_icon_sight_in_gird" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/bnj" android:background="@color/ig" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <CheckBox android:id="@id/bnk" android:background="@drawable/ka" android:focusable="false" android:clickable="false" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" android:layout_marginTop="@dimen/go" android:layout_marginRight="@dimen/go" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <View android:id="@id/bnl" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" xmlns:mm="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HeadImgNewPreference mm:i="@string/cy7" mm:l2="settings_change_avatar" mm:lj="@layout/a3s" />
+    <com.tencent.mm.pluginsdk.ui.preference.SignaturePreference mm:i="@string/d0y" mm:l2="settings_name" mm:lj="@layout/a3s" />
+    <Preference mm:i="@string/d4q" mm:l2="settings_username" mm:lj="@layout/a3s" />
+    <Preference mm:i="@string/d2_" mm:l2="settings_qrcode" mm:l4="@layout/mm_preference_icon_right_qrcode" mm:lj="@layout/a3s" />
+    <Preference mm:i="@string/mx" mm:l2="settings_more_info" mm:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference mm:i="@string/cy4" mm:l2="settings_address" mm:lj="@layout/a3s" />
+    <Preference mm:i="@string/czw" mm:l2="settings_invoice" mm:lj="@layout/a3s" />
+</PreferenceScreen>

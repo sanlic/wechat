@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dxg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.ui.SplashWelcomeView android:id="@id/cf4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:textColor="#ffffffff" android:layout_gravity="right" android:id="@id/dxh" android:paddingLeft="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="13.0dip" />
+    <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/dxi" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="55.0dip" android:layout_alignParentBottom="true">
+            <Button android:textSize="20.0dip" android:id="@id/czy" android:layout_width="140.0dip" android:layout_height="55.0dip" android:layout_marginLeft="130.0dip" android:text="@string/bkh" android:layout_alignParentLeft="true" style="@style/MMSolidGreenLargeButton" />
+            <Button android:textSize="20.0dip" android:id="@id/czx" android:layout_width="140.0dip" android:layout_height="55.0dip" android:layout_marginRight="130.0dip" android:text="@string/bkg" android:layout_alignParentRight="true" style="@style/MMSolidWhiteLargeButton" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

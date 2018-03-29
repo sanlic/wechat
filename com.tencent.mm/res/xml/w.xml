@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.HelperHeaderPreference android:l2="contact_info_header_helper" android:lj="@layout/ly" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/aif" android:l2="contact_info_linkedin_account" android:l4="@layout/a5i" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <Preference android:i="@string/d1u" android:l2="contact_info_linkedin_install" android:l4="@layout/a5i" android:lj="@layout/yg" />
+    <Preference android:i="@string/d20" android:l2="contact_info_linkedin_uninstall" android:lj="@layout/a0e" />
+    <PreferenceCategory />
+</PreferenceScreen>

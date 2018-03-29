@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:g="false" android:h="@string/cqf" android:i="@string/cpl" android:l2="safe_device_verify_check" />
+    <Preference android:i="@string/cq5" android:l2="my_safe_device_list_tip" android:lj="@layout/a58" />
+</PreferenceScreen>

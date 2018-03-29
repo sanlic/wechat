@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/hg" android:layout_width="fill_parent" android:layout_height="@dimen/h9" android:baselineAligned="false" android:minHeight="@dimen/h9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/h5" android:layout_height="@dimen/h5" android:layout_marginLeft="@dimen/i5" android:layout_marginRight="@dimen/i8">
+        <com.tencent.mm.ui.MMImageView android:id="@id/ja" android:layout_width="@dimen/h3" android:layout_height="@dimen/h3" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/i5">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.5dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/ha" android:textColor="@color/lp" android:ellipsize="end" android:id="@id/jb" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFontTitleInList" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/g5" android:textColor="@color/jb" android:ellipsize="end" android:gravity="center|right" android:id="@id/jc" android:layout_width="110.0dip" android:layout_height="wrap_content" style="@style/MMFontTimeInList" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.5dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/g5" android:textColor="@color/iq" android:ellipsize="end" android:gravity="center|left" android:id="@id/jd" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFontTipInList" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

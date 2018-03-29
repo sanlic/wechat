@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.wallet.pwd.ui.WalletSecuritySettingHeaderPref android:l2="wallet_security_basic_info" />
+    <PreferenceTitleCategory android:i="@string/e5u" android:l2="wallet_security_more_title" />
+    <NormalIconPreference android:i="@string/e5s" android:o="@raw/wallet_security_digital_certificate" android:l2="wallet_security_digital_certificate" />
+    <NormalIconPreference android:i="@string/e5v" android:o="@raw/wallet_security_pay_guard" android:l2="wallet_security_pay_guard" />
+    <NormalIconPreference android:i="@string/e62" android:o="@raw/wallet_security_wallet_lock" android:l2="wallet_security_wallet_lock" />
+    <NormalIconPreference android:i="@string/e5x" android:o="@raw/wallet_security_safety_insurance" android:l2="wallet_security_safety_insurance" />
+</PreferenceScreen>

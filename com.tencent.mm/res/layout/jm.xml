@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/afw" style="@style/ChattingUIState" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/ago" android:paddingRight="@dimen/i5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/a_f" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@id/agn" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+                <com.tencent.mm.pluginsdk.ui.emoji.RTChattingEmojiViewTo android:layout_gravity="right" android:id="@id/aee" android:background="@null" android:layout_marginLeft="@dimen/p6" android:layout_marginRight="@dimen/p6" style="@style/EmojiCommonStyle" />
+                <ProgressBar android:id="@id/aef" android:visibility="gone" android:layout_width="@dimen/ti" android:layout_height="@dimen/ti" android:indeterminateDrawable="@drawable/mo" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/ii" android:textColor="@color/rn" android:gravity="right" android:id="@id/aeg" android:background="@drawable/emoji_app_msg_mask" android:padding="@dimen/i8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="@color/eb" android:layout_alignLeft="@id/aee" android:layout_alignRight="@id/aee" android:layout_alignBottom="@id/aee" />
+                <ImageView android:id="@id/aeh" android:background="@null" android:visibility="gone" android:layout_width="@dimen/ti" android:layout_height="@dimen/ti" android:src="@drawable/emoji_download_btn" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/chatting_item_avatar_to" />
+</LinearLayout>

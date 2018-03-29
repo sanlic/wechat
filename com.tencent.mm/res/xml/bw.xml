@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.scanner.ui.VcardContactUserHeaderPreference android:l2="v_contact_info_header" android:lj="@layout/aj8" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:i="@string/djl" android:l2="v_contact_info_photo_uri" android:lj="@layout/a3s" />
+    <PreferenceCategory android:l2="v_category_photo_uri" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:i="@string/djd" android:l2="v_contact_info_email" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/djk" android:l2="v_contact_info_org" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/dja" android:l2="v_contact_info_agent" android:lj="@layout/a3s" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:i="@string/djq" android:l2="c_contact_info_wx_id" android:lj="@layout/a3s" />
+    <PreferenceCategory android:l2="v_category_main" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:i="@string/djf" android:l2="v_contact_info_home_page" android:lj="@layout/a3s" />
+    <PreferenceCategory android:l2="v_category_home_page" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/djb" android:l2="v_contact_info_birthday" android:lj="@layout/a3s" />
+    <PreferenceCategory android:l2="v_category_birthday" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/djm" android:l2="v_contact_info_remark" android:lj="@layout/a3s" />
+    <PreferenceCategory android:l2="v_category_remark" />
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference android:i="@string/djh" android:l2="v_contact_info_logo" android:lj="@layout/a3s" />
+    <PreferenceCategory android:l2="v_category_logo" />
+    <Preference android:i="@string/dj7" android:l2="add_vcard_contact" android:lj="@layout/ak" />
+    <PreferenceCategory />
+</PreferenceScreen>

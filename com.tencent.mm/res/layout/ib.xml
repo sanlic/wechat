@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/eu" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/abe" android:background="@color/dw" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/gf" android:layout_marginRight="@dimen/gf" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/abf" android:paddingTop="@dimen/i5" android:paddingBottom="@dimen/gf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gf" android:layout_marginRight="@dimen/gf" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/no" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/u9" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/g2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ee2" android:maxLines="2" android:lineSpacingExtra="@dimen/i8" />
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/i5" android:id="@id/abg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ee2" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/nn" android:layout_width="@dimen/no" android:layout_height="@dimen/no" android:layout_marginLeft="@dimen/gf">
+            <ImageView android:id="@id/no" android:background="@color/j_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/abh" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@raw/chatting_item_biz_video_icon" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

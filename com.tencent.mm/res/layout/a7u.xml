@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/cgk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6w" style="@style/note_operation_item" />
+    <TextView android:id="@id/cgl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c7d" style="@style/note_operation_item" />
+    <TextView android:id="@id/cgm" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c7_" style="@style/note_operation_item" />
+    <TextView android:id="@id/cgn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c7a" style="@style/note_operation_item" />
+    <TextView android:id="@id/cgo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6y" style="@style/note_operation_item" />
+    <TextView android:id="@id/cgp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6x" style="@style/note_operation_item" />
+    <TextView android:id="@id/cgq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c76" style="@style/note_operation_item" />
+    <TextView android:id="@id/cgr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c6z" style="@style/note_operation_item" />
+</LinearLayout>

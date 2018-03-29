@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.subapp.ui.pluginapp.AddFriendSearchPreference android:l2="find_friends_by_input" />
+    <com.tencent.mm.ui.base.preference.PreferenceInfoCategory android:l2="find_friends_info" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.subapp.ui.pluginapp.AddFriendItemPreference android:h="@string/b63" android:i="@string/b62" android:o="@raw/addfriend_icon_rada" android:l2="find_friends_by_radar" />
+    <com.tencent.mm.plugin.subapp.ui.pluginapp.AddFriendItemPreference android:h="@string/b66" android:i="@string/b65" android:o="@raw/default_chatroom" android:l2="find_friends_create_pwdgroup" />
+    <com.tencent.mm.plugin.subapp.ui.pluginapp.AddFriendItemPreference android:h="@string/b61" android:i="@string/b60" android:o="@raw/addfriend_icon_qrscan" android:l2="find_friends_by_qrcode" />
+    <com.tencent.mm.plugin.subapp.ui.pluginapp.AddFriendItemPreference android:h="@string/b5z" android:i="@string/b5y" android:o="@raw/default_fmessage" android:l2="find_friends_by_other_way" />
+    <com.tencent.mm.plugin.subapp.ui.pluginapp.AddFriendItemPreference android:h="@string/b64" android:i="@string/az1" android:o="@raw/default_servicebrand_contact" android:l2="find_friends_by_web" />
+    <PreferenceCategory />
+</PreferenceScreen>

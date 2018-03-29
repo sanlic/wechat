@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/t8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/apk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="center_horizontal" layout="@layout/wallet_pwd_dialog" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/c8j" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/ha" android:textColor="@color/rj" android:id="@id/aln" android:background="@drawable/ai" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="@dimen/h6" android:text="@string/kh" android:layout_weight="1.0" />
+                <ImageView android:id="@id/am7" android:background="@color/l0" android:layout_width="@dimen/dg" android:layout_height="fill_parent" />
+                <Button android:textSize="@dimen/ha" android:textColor="@color/rj" android:id="@id/alo" android:background="@drawable/ai" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="@dimen/h6" android:text="@string/e3z" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tenpay_keyboard_layot" />
+</LinearLayout>

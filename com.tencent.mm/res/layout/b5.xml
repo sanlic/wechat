@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/k8" android:layout_width="wrap_content" android:layout_height="@dimen/d5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/k9" android:background="@drawable/ao" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/l4">
+        <com.tencent.mm.plugin.appbrand.widget.actionbar.AppBrandCapsuleOptionButton android:id="@id/k_" android:background="@drawable/al" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ka" android:background="@null" android:layout_width="@dimen/lu" android:layout_height="@dimen/l3" android:src="@color/av" />
+        <com.tencent.mm.plugin.appbrand.widget.actionbar.AppBrandCapsuleHomeButton android:id="@id/kb" android:background="@drawable/am" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

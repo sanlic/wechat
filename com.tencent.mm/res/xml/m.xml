@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" xmlns:mm="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.ChoicePreference mm:i="@string/d2w" mm:eh="@array/y" mm:ei="@array/z" mm:l2="settings_sex" mm:lj="@layout/a5e" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference mm:i="@string/cys" mm:l2="settings_district" mm:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference mm:i="@string/d33" mm:l2="settings_signature" mm:lj="@layout/a3s" />
+    <Preference mm:i="@string/a2_" mm:l2="bottle_settings_change_avatar_alert" mm:lj="@layout/a57" />
+</PreferenceScreen>

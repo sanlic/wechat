@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/c70" style="@style/mass_send_time" />
+    <LinearLayout android:orientation="vertical" android:id="@id/c71" android:background="@drawable/ex" android:paddingLeft="@dimen/bx" android:paddingTop="@dimen/i5" android:paddingRight="@dimen/bx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i5" android:layout_marginBottom="@dimen/i5">
+        <TextView android:id="@id/c72" style="@style/mass_send_contact" />
+        <TextView android:id="@id/c73" android:layout_marginTop="@dimen/bt" android:layout_marginBottom="@dimen/i5" style="@style/mass_send_contact" />
+        <View style="@style/mass_send_divide_line" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bx" android:layout_marginBottom="@dimen/bx">
+            <TextView android:id="@id/c79" style="@style/ChattingUIVoiceLength" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/c7_" android:background="@drawable/f9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/ch" android:drawableRight="@raw/chatto_voice_playing" />
+                <com.tencent.mm.ui.base.AnimImageView android:layout_gravity="right" android:id="@id/c7a" android:paddingRight="17.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/ch" />
+            </FrameLayout>
+        </LinearLayout>
+        <View style="@style/mass_send_divide_line" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/c75" style="@style/mass_send_again_btn" />
+    </LinearLayout>
+</LinearLayout>

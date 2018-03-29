@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:i="@string/cyd" />
+    <CheckBoxPreference android:i="@string/czi" android:l2="settings_find_me_by_weixin" />
+    <CheckBoxPreference android:i="@string/czh" android:l2="settings_find_me_by_mobile" />
+    <CheckBoxPreference android:i="@string/czf" android:l2="settings_find_me_by_QQ" />
+    <CheckBoxPreference android:i="@string/czg" android:l2="settings_find_me_by_google" />
+    <Preference android:i="@string/d2p" android:lj="@layout/a59" />
+    <PreferenceTitleCategory android:i="@string/cyc" android:l2="settings_friend_verify" />
+    <CheckBoxPreference android:i="@string/cy0" android:l2="settings_add_me_by_chatroom" />
+    <CheckBoxPreference android:i="@string/cy2" android:l2="settings_add_me_by_qrcode" />
+    <CheckBoxPreference android:i="@string/cy1" android:l2="settings_add_me_by_namecard" />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.NormalUserHeaderPreference android:l2="contact_info_header_normal" android:lj="@layout/lz" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/akz" android:l2="contact_info_signature" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.profile.ui.NormalUserFooterPreference android:l2="contact_info_footer_normal" android:lj="@layout/lw" />
+</PreferenceScreen>

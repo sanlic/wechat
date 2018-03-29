@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/gj" android:layout_width="fill_parent" android:layout_height="@dimen/d5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/jh" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ji" android:background="@null" android:paddingLeft="@dimen/i5" android:paddingRight="@dimen/i5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/en" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/jj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/jk" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/br" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/jl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/g5" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/jm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/jn" android:padding="3.0dip" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_alignRight="@id/jk" android:layout_centerInParent="true" style="@style/mediumCustomProgressBar" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/jo" android:background="@drawable/a9" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/jp" android:background="@drawable/ao" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/l4" android:layout_marginRight="9.0dip">
+        <com.tencent.mm.plugin.appbrand.widget.actionbar.AppBrandOptionButton android:id="@id/jq" android:background="@drawable/al" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/jr" android:background="@null" android:layout_width="@dimen/lu" android:layout_height="@dimen/l3" android:src="@color/av" />
+        <com.tencent.mm.plugin.appbrand.widget.actionbar.AppBrandCapsuleHomeButton android:id="@id/js" android:background="@drawable/am" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

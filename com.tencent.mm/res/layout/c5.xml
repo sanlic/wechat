@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/hu" android:background="#66181818" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <ImageView android:id="@id/nx" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="19.0dip" android:src="@raw/app_brand_video_play_btn" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/ll" android:textColor="@color/rn" android:id="@id/ny" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/k9" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/ll" android:textColor="@color/rn" android:id="@id/nz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+            <FrameLayout android:id="@id/o0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+                <ImageView android:id="@id/o1" android:background="#ff9c9a99" style="@style/AppBrandVideoProgressBar" />
+                <ImageView android:id="@id/o2" android:background="#ffcdcdcc" style="@style/AppBrandVideoProgressBar" />
+                <ImageView android:id="@id/o3" android:background="@color/rn" style="@style/AppBrandVideoProgressBar" />
+                <ImageView android:id="@id/o4" android:paddingLeft="@dimen/bx" android:paddingTop="@dimen/bx" android:paddingRight="@dimen/bx" android:paddingBottom="@dimen/bx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i5" android:src="@raw/media_player_control_btn" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/ll" android:textColor="@color/rn" android:id="@id/o5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        </LinearLayout>
+        <ImageView android:id="@id/o6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@raw/app_brand_video_danmaku_hided_btn" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/o7" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:src="@raw/app_brand_video_op_fullscreen_btn" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+    </LinearLayout>
+</LinearLayout>

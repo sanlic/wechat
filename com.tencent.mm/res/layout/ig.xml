@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/abx" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/aby" android:layout_width="fill_parent" android:layout_height="@dimen/np">
+        <ImageView android:id="@id/no" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/abs" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/abz" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginRight="@dimen/gf" android:src="@raw/chatting_item_biz_video_icon" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/gf" android:paddingRight="@dimen/gf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/abz" android:layout_alignTop="@id/abz" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/gb" android:textColor="@color/rn" android:id="@id/g2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:maxLines="2" />
+            <TextView android:textSize="@dimen/ia" android:textColor="@color/rn" android:id="@id/a6w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/go" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:orientation="vertical" android:id="@id/abo" android:background="@drawable/f6" android:layout_width="fill_parent" android:layout_height="@dimen/np" />
+</RelativeLayout>

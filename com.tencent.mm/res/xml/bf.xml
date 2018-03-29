@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:i="@string/d16" android:l2="settings_new_msg_notification" />
+    <CheckBoxPreference android:i="@string/d1_" android:l2="settings_new_voip_msg_notification" />
+    <CheckBoxPreference android:i="@string/doi" android:l2="settings_voip_notification_sound" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android1:defaultValue="true" android:h="@string/cyg" android:i="@string/d17" android:l2="settings_show_detail" android:l6="settings_new_msg_notification" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:i="@string/d3j" android:l2="settings_sound" android:l6="settings_new_msg_notification" android:l7="true" />
+    <Preference android:g="false" android:i="@string/d1e" android:l2="settings_notification_ringtone" android:l6="settings_sound" />
+    <CheckBoxPreference android:i="@string/d2x" android:l2="settings_shake" android:l6="settings_new_msg_notification" android:l7="true" android:lj="@layout/a5m" />
+    <PreferenceSmallCategory />
+    <PreferenceCategory />
+</PreferenceScreen>

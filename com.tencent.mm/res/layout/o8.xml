@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/rn" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/aur" android:background="@drawable/emoji_item_category_bg" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h_" android:layout_marginRight="@dimen/h_" style="@style/MMFontTitleInList" />
+    <FrameLayout android:id="@id/aus" android:background="@drawable/o0" android:duplicateParentState="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/aut" android:background="@drawable/um" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/h_" android:layout_marginRight="@dimen/h_">
+            <ImageView android:id="@id/auu" android:paddingRight="@dimen/pk" android:layout_width="@dimen/pf" android:layout_height="@dimen/pf" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/auv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/auw" android:layout_toRightOf="@id/auu" android:layout_centerVertical="true">
+                <TextView android:textColor="@color/bp" android:id="@id/auy" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMFontTitleInList" />
+                <TextView android:ellipsize="end" android:id="@id/auz" android:paddingTop="@dimen/bt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/MMFontTipInList" />
+                <TextView android:id="@id/av0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMFontTipInList" />
+            </LinearLayout>
+            <FrameLayout android:gravity="center" android:id="@id/auw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/i1" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/av1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:minWidth="@dimen/i1" android:minHeight="@dimen/i2">
+                    <TextView android:textSize="@dimen/i0" android:textColor="@color/jc" android:gravity="center" android:id="@id/av2" android:paddingLeft="@dimen/go" android:paddingRight="@dimen/go" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:shadowRadius="1.2" />
+                </LinearLayout>
+                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/av3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/av4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/av5" android:layout_width="@dimen/i1" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/av6" android:layout_width="@dimen/i1" android:layout_height="wrap_content" android:max="100" android:progress="0" style="@style/MMEmojiDownloadProgressHorizontal" />
+                </LinearLayout>
+            </FrameLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/av7" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/z_" />
+    </FrameLayout>
+</LinearLayout>

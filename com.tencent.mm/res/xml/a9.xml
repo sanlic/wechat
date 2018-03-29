@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/al5" android:l2="contact_info_social_mobile" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/al6" android:l2="contact_info_social_qq" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/al4" android:l2="contact_info_social_linkedin" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/al1" android:l2="contact_info_social_facebook" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/al3" android:l2="contact_info_social_googlecontacts" android:lj="@layout/a3s" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:i="@string/al8" android:l2="contact_info_social_weishop" android:lj="@layout/a3s" />
+</PreferenceScreen>

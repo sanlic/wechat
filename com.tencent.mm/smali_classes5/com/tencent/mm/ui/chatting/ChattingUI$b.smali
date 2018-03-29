@@ -1,0 +1,25 @@
+.class public interface abstract Lcom/tencent/mm/ui/chatting/ChattingUI$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/ui/chatting/ChattingUI;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract ckU()V
+.end method
+
+.method public abstract ckV()V
+.end method
+
+.method public abstract ckW()V
+.end method

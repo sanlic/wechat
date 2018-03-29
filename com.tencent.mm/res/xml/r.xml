@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.HelperHeaderPreference android:l2="contact_info_header_helper" android:lj="@layout/ly" />
+    <PreferenceSmallCategory android:l2="contact_info_facebookapp_cat" />
+    <Preference android:i="@string/ahd" android:l2="contact_info_facebookapp_listfriend" android:lj="@layout/a3s" />
+    <Preference android:i="@string/ahc" android:l2="contact_info_facebookapp_connect" android:lj="@layout/a3s" />
+    <Preference android:i="@string/bi0" android:l2="contact_info_facebookapp_addr" android:lj="@layout/a3s" />
+    <PreferenceSmallCategory android:l2="contact_info_facebookapp_cat2" />
+    <Preference android:i="@string/d1u" android:l2="contact_info_facebookapp_install" android:lj="@layout/yg" />
+    <Preference android:i="@string/d20" android:l2="contact_info_facebookapp_uninstall" android:lj="@layout/a0e" />
+    <PreferenceCategory />
+</PreferenceScreen>

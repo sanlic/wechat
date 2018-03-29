@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/gj" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ho" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/bx" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/bj0" android:paddingLeft="@dimen/i5" android:paddingRight="@dimen/i5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@raw/actionbar_quit_webview_icon" android:contentDescription="@string/en" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/h3" android:background="@color/a_" android:layout_width="@dimen/dg" android:layout_height="@dimen/gi" />
+    </LinearLayout>
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/g2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/ho" android:layout_centerVertical="true" android:layout_toEndOf="@id/ho" style="@style/MMActionBar.TitleTextStyle" />
+    <ImageView android:id="@id/bj1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/kr" android:layout_alignParentRight="true" />
+</RelativeLayout>

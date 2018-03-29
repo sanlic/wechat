@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/b5t" android:background="@color/qa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/d56" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <TextView android:textColor="@color/rn" android:gravity="center" android:id="@id/b21" android:padding="@dimen/gf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gj" android:text="@string/d82" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/b5u" android:background="@color/eb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@id/d57" android:visibility="gone" android:layout_width="@dimen/ti" android:layout_height="@dimen/ti" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/d58" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a_i" android:scaleType="center" android:layout_centerInParent="true" />
+    <include layout="@layout/sight_player_tip_golden_ratio" />
+</RelativeLayout>

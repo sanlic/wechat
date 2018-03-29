@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:i="@string/cy5" />
+    <CheckBoxPreference android:i="@string/d0z" android:l2="settings_need_verify" android:lj="@layout/a3s" />
+    <CheckBoxPreference android:h="@string/d2d" android:i="@string/ak6" android:l2="settings_recommend_mobilefriends_to_me" />
+    <CheckBoxPreference android:h="@string/d2c" android:i="@string/cze" android:l2="settings_find_google_contact" />
+    <Preference android:i="@string/cy3" android:l2="settings_add_me_way" android:lj="@layout/a3s" />
+    <Preference android:i="@string/d29" android:l2="settings_about_blacklist" android:lj="@layout/a3s" />
+    <Preference android:i="@string/d4k" android:l2="settings_unfamiliar_contact" android:lj="@layout/a3s" />
+    <PreferenceTitleCategory android:i="@string/cy6" android:l2="settings_add_friends_timeline_tip" />
+    <Preference android:i="@string/dbi" android:l2="timline_outside_permiss" />
+    <Preference android:i="@string/d9k" android:l2="timeline_black_permiss" />
+    <Preference android:i="@string/d27" android:l2="edit_timeline_group" />
+    <CheckBoxPreference android:i="@string/ahp" android:l2="timeline_stranger_show" android:lj="@layout/a3s" />
+    <IconPreference android:i="@string/ahl" android:l2="timeline_recent_show_select" />
+    <CheckBoxPreference android:h="@string/d3e" android:i="@string/d28" android:l2="timeline_open_entrance" android:lj="@layout/a3s" />
+    <CheckBoxPreference android:h="@string/d3d" android:i="@string/d3c" android:l2="settings_sns_notify" android:l6="settings_new_sns_notify" android:l7="true" />
+    <PreferenceCategory />
+    <Preference android:l2="settings_privacy_agreements" android:lj="@layout/a59" />
+</PreferenceScreen>

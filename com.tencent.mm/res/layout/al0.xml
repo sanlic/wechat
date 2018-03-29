@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/qw" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMBody"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.wallet_core.ui.MMScrollView android:id="@id/atm" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingTop="10.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WalletBody">
+            <TextView android:id="@id/dmz" android:background="@null" android:visibility="gone" android:layout_marginBottom="8.0dip" android:text="@string/du4" android:drawableLeft="@drawable/a9x" android:drawablePadding="7.0dip" style="@style/WalletElementTips" />
+            <LinearLayout style="@style/WalletMultiFormStyle">
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dn1" app:nk="@string/dtp" app:nt="@string/dto" style="@style/WalletBankcardIdStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/atp" app:nk="@string/dsg" app:nt="@string/dvt" style="@style/ClickableWalletFormStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/cin" android:imeOptions="actionNext" app:nk="@string/dsn" app:nt="@string/dsm" style="@style/WalletCvvStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/cip" app:nk="@string/dsu" app:nt="@string/dsp" style="@style/WalletDateStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dm8" android:imeOptions="actionNext" app:nk="@string/dud" app:nt="@string/dua" style="@style/WalletNameStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dn7" app:nk="@string/dsk" app:nt="@string/dsj" style="@style/ClickableWalletFormStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dn8" android:imeOptions="actionNext" app:nk="@string/dta" app:nt="@string/dt8" style="@style/WalletIdentityCardStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dk3" android:imeOptions="actionNext" app:nk="@string/dti" app:nt="@string/dth" style="@style/WalletMobileStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dnd" android:imeOptions="actionNext" app:nk="@string/dt2" app:nt="@string/dt1" style="@style/BaseWalletFormStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dne" android:imeOptions="actionNext" app:nk="@string/dtg" app:nt="@string/dtf" style="@style/BaseWalletFormStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dnf" android:imeOptions="actionNext" app:nk="@string/dsa" app:nt="@string/ds_" style="@style/ClickableWalletFormStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dng" android:imeOptions="actionNext" app:nk="@string/ds5" app:nt="@string/ds4" app:ny="90" style="@style/BaseWalletFormStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dnh" android:imeOptions="actionNext" app:nk="@string/dtv" app:nt="@string/dtr" style="@style/WalletPhoneStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dni" android:imeOptions="actionNext" app:nk="@string/dtx" app:nt="@string/dtw" style="@style/BaseWalletFormStyle" />
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/dnj" android:imeOptions="actionNext" app:nk="@string/dsw" app:nt="@string/dsv" style="@style/WalletEmailStyle" />
+            </LinearLayout>
+            <CheckBox android:textSize="@dimen/g5" android:textColor="@color/bp" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/dnm" android:paddingLeft="24.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:checked="true" android:minHeight="22.0dip" android:text="@string/dt3" style="@style/MMTextCheckBox" />
+            <LinearLayout android:orientation="horizontal" android:layout_marginTop="8.0dip" style="@style/MMLine">
+                <CheckBox android:textSize="@dimen/g5" android:textColor="@color/bp" android:gravity="center|right" android:layout_gravity="center|left" android:id="@id/dnl" android:paddingLeft="24.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:minHeight="22.0dip" android:text="@string/duf" style="@style/MMTextCheckBox" />
+                <TextView android:textSize="@dimen/g5" android:textColor="@color/t1" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/car" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="@string/due" android:singleLine="true" />
+            </LinearLayout>
+            <Button android:id="@id/akc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="38.0dip" android:text="@string/n_" style="@style/MMWalletBtn" />
+        </LinearLayout>
+    </com.tencent.mm.wallet_core.ui.MMScrollView>
+    <TextView android:layout_gravity="bottom" android:id="@id/cir" android:background="@color/lg" android:paddingTop="5.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_alignParentBottom="true" style="@style/WalletPowerByTenpayTips" />
+</RelativeLayout>

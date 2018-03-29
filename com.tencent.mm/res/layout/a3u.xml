@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <TextView android:textColor="@color/i5" android:id="@android:id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+        <TextView android:textColor="@color/bp" android:id="@id/c96" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/sm" android:id="@id/c97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="10.0dip" android:textColor="@color/rn" android:gravity="center" android:id="@id/a9j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/n9" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/rn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:overScrollMode="never">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/cp9" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="33.0dip" android:src="@drawable/yt" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/bp" android:layout_gravity="center_horizontal" android:id="@id/cp_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="" android:layout_below="@id/cp9" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="24.0dip" android:textColor="@color/bp" android:gravity="center" android:id="@id/cpa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="48.0dip" android:text="" android:layout_below="@id/cp_" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/bp" android:id="@id/cpb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="@string/ccq" android:layout_below="@id/cpa" android:layout_centerHorizontal="true" android:alpha="0.4" />
+            <com.tencent.mm.ui.base.MMGridView android:id="@id/cpc" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:horizontalSpacing="10.0dip" android:verticalSpacing="8.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:layout_below="@id/cpb" />
+            <TextView android:textSize="14.0dip" android:textColor="#ff4a90e2" android:layout_gravity="center_horizontal" android:id="@id/cpd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/ccr" android:layout_below="@id/cpc" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/bp" android:gravity="bottom" android:id="@id/cpe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="" android:layout_below="@id/cpd" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="0.36" />
+        </RelativeLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tenpay_keyboard_layot" />
+</LinearLayout>

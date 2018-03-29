@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/hu" android:background="@color/o3" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/awg" android:background="@drawable/emoji_store_v2_single_bar" android:paddingLeft="@dimen/h_" android:paddingRight="@dimen/h_" android:layout_width="fill_parent" android:layout_height="@dimen/i4" android:layout_marginTop="@dimen/gn" android:layout_marginBottom="@dimen/gn" style="@style/NavPage">
+        <TextView android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/at9" android:singleLine="true" style="@style/MMFontTitleInList" />
+        <TextView android:textColor="@color/rn" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/awf" android:background="@drawable/qt" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="@dimen/go" android:layout_marginRight="@dimen/go" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/awp" android:paddingLeft="@dimen/h_" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/h_" android:paddingBottom="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NavPage">
+        <TextView android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/awq" android:layout_width="0.0dip" android:text="@string/arw" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+        <TextView android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/awr" android:layout_width="0.0dip" android:text="@string/at5" android:drawableRight="@raw/emoji_arrow" android:layout_weight="1.0" style="@style/MMFontTipInList" />
+    </LinearLayout>
+</LinearLayout>

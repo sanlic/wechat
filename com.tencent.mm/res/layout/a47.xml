@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/h_" android:paddingBottom="@dimen/i5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColorHint="@color/in" android:layout_gravity="center_vertical" android:id="@id/hk" android:background="@drawable/agd" android:paddingLeft="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/i2" android:singleLine="true" android:drawableLeft="@drawable/aa9" android:imeOptions="actionSearch" />
+            <TextView android:textColor="@color/in" android:gravity="center_vertical" android:id="@id/c9b" android:paddingLeft="46.0dip" android:paddingTop="@dimen/bt" android:paddingBottom="@dimen/i5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <Button android:layout_gravity="center_vertical" android:id="@id/hm" android:visibility="gone" android:layout_marginLeft="@dimen/i5" android:text="@string/oh" style="@style/MMSolidGreenSmallButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1000" android:drawable="@drawable/wq" />
+    <item android:duration="1000" android:drawable="@drawable/wr" />
+    <item android:duration="1000" android:drawable="@drawable/ws" />
+    <item android:duration="1000" android:drawable="@drawable/wt" />
+    <item android:duration="1000" android:drawable="@drawable/wu" />
+    <item android:duration="1000" android:drawable="@drawable/wv" />
+    <item android:duration="300" android:drawable="@drawable/ww" />
+    <item android:duration="1000" android:drawable="@drawable/wx" />
+    <item android:duration="1000" android:drawable="@drawable/wy" />
+    <item android:duration="1000" android:drawable="@drawable/x4" />
+    <item android:duration="1000" android:drawable="@drawable/x3" />
+    <item android:duration="1000" android:drawable="@drawable/x2" />
+    <item android:duration="1000" android:drawable="@drawable/x1" />
+    <item android:duration="1000" android:drawable="@drawable/x0" />
+    <item android:duration="1000" android:drawable="@drawable/wz" />
+    <item android:duration="1000" android:drawable="@drawable/wz" />
+    <item android:duration="1000" android:drawable="@drawable/x0" />
+    <item android:duration="1000" android:drawable="@drawable/x1" />
+    <item android:duration="1000" android:drawable="@drawable/x2" />
+    <item android:duration="1000" android:drawable="@drawable/x3" />
+    <item android:duration="1000" android:drawable="@drawable/x4" />
+    <item android:duration="300" android:drawable="@drawable/ww" />
+    <item android:duration="1000" android:drawable="@drawable/wx" />
+    <item android:duration="1000" android:drawable="@drawable/wy" />
+    <item android:duration="1000" android:drawable="@drawable/wv" />
+    <item android:duration="1000" android:drawable="@drawable/wu" />
+    <item android:duration="1000" android:drawable="@drawable/wt" />
+    <item android:duration="1000" android:drawable="@drawable/ws" />
+    <item android:duration="1000" android:drawable="@drawable/wr" />
+    <item android:duration="1000" android:drawable="@drawable/wq" />
+</animation-list>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:id="@id/a9h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/a9i" android:background="@null" android:layout_width="@dimen/h8" android:layout_height="@dimen/h8" android:layout_marginRight="@dimen/h_" />
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/i5" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+            <TextView android:id="@id/a9j" android:background="@null" android:visibility="gone" android:text="@string/n9" style="@style/UnreadCountTipsStyle" />
+            <ImageView android:id="@id/a9k" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qt" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/a9n" android:background="@null" android:layout_width="wrap_content" android:layout_height="@dimen/hx">
+            <TextView android:textStyle="normal" android:ellipsize="end" android:id="@id/c_8" android:paddingLeft="@dimen/go" android:paddingRight="@dimen/go" android:visibility="visible" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:text="" android:singleLine="true" android:layout_centerVertical="true" style="@style/UnreadCountTipsStyle" />
+        </RelativeLayout>
+        <TextView android:id="@android:id/summary" android:paddingTop="@dimen/i5" android:paddingRight="@dimen/i5" android:paddingBottom="@dimen/i5" android:singleLine="true" style="@style/MMFontPreferenceSummary" />
+    </LinearLayout>
+</LinearLayout>

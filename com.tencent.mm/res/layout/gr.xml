@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/a7q" style="@style/CardSecondFieldLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/a7r" style="@style/CardSecondField1Text" />
+    <TextView android:id="@id/a7s" style="@style/CardSecondField2Text" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bgt" android:background="@color/rn" android:paddingTop="@dimen/qu" android:paddingBottom="@dimen/qu" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:layout_gravity="center_vertical" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bgu" android:paddingLeft="@dimen/qu" android:paddingRight="@dimen/qu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <HorizontalScrollView android:layout_gravity="center_vertical" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bgv" android:paddingLeft="@dimen/qu" android:paddingRight="@dimen/qu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</LinearLayout>

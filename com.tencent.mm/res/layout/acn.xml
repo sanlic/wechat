@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/rn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/eg" android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/ef" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aob" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/ef" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ao_" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/ef" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aod" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/ef" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aoe" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/ef" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aoc" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/ef" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ao9" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/ef" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aoa" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/lo" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/ai" android:gravity="center" android:id="@id/po" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6" />
+    <com.tencent.mm.plugin.chatroom.ui.DayPickerView android:id="@id/czv" android:layout_width="fill_parent" android:layout_height="fill_parent" calendar:g7="#ff0aba07" calendar:gm="false" />
+</LinearLayout>

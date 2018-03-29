@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceTitleCategory android:i="@string/adc" />
+    <NormalIconPreference android:i="@string/bkw" android:o="@raw/invite_friends_by_message" android:l2="invite_friends_by_message" />
+    <NormalIconPreference android:i="@string/bku" android:o="@raw/invite_friends_by_mail" android:l2="invite_friends_by_mail" />
+    <NormalIconPreference android:i="@string/bky" android:o="@raw/invite_friends_by_whatsapp" android:l2="invite_friends_by_whatsapp" />
+    <NormalIconPreference android:i="@string/bkt" android:o="@raw/invite_friends_by_facebook" android:l2="invite_friends_by_facebook" />
+    <NormalIconPreference android:i="@string/bkx" android:o="@raw/invite_friends_by_twitter" android:l2="invite_friends_by_twitter" />
+    <PreferenceCategory />
+</PreferenceScreen>

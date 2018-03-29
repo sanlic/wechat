@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:i="@string/d2m" android:l2="settings_room_size" android:lj="@layout/a3s" />
+    <Preference android:i="@string/co7" android:l2="room_right_max_tip" android:lj="@layout/a57" />
+    <PreferenceCategory />
+    <com.tencent.mm.plugin.chatroom.ui.RoomGrantPreference android:i="@string/d2k" android:l2="settings_room_grant" android:lj="@layout/a3s" />
+    <PreferenceCategory />
+    <Preference android:i="@string/co5" android:l2="room_grant_to_friend" android:lj="@layout/xo" />
+    <PreferenceCategory />
+    <Preference android:i="@string/co6" android:l2="room_right_grant_tip" android:lj="@layout/a57" />
+</PreferenceScreen>

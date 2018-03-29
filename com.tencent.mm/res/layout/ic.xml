@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/abi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/abj" android:layout_width="fill_parent" android:layout_height="@dimen/np">
+        <ImageView android:id="@id/no" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/abk" android:background="@drawable/ab_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/gb" android:textColor="@color/rn" android:ellipsize="end" android:gravity="bottom" android:id="@id/abl" android:background="@drawable/aba" android:paddingLeft="@dimen/gf" android:paddingTop="@dimen/gf" android:paddingRight="@dimen/gf" android:paddingBottom="@dimen/gw" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ee2" android:maxLines="3" android:layout_alignParentBottom="true" android:lineSpacingExtra="@dimen/i_" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/abm" android:background="@drawable/adj" android:paddingLeft="@dimen/gf" android:paddingTop="@dimen/gf" android:paddingRight="@dimen/gf" android:paddingBottom="@dimen/gf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/abj">
+        <TextView android:textSize="@dimen/gb" android:textColor="@color/bp" android:ellipsize="end" android:id="@id/g2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ee2" android:maxLines="4" />
+        <TextView android:textSize="@dimen/g5" android:textColor="@color/iq" android:ellipsize="end" android:id="@id/abn" android:paddingTop="@dimen/bt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ee2" android:maxLines="15" />
+    </LinearLayout>
+    <ImageView android:orientation="vertical" android:id="@id/abo" android:background="@drawable/f6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/np" android:layout_alignTop="@id/abj" android:layout_alignBottom="@id/abm" />
+</RelativeLayout>

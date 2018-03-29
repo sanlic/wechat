@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.facedetect.ui.FaceHeaderPreference android:l2="settings_faceprint_header" />
+    <PreferenceCategory />
+    <PreferenceCategory />
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference android:h="@string/cz3" android:i="@string/cz2" android:l2="settings_faceprint_title" />
+    <Preference android:i="@string/cz5" android:l2="settings_faceprint_create" android:lj="@layout/a5m" />
+    <Preference android:i="@string/cz8" android:l2="settings_faceeprint_reset" android:lj="@layout/a3s" />
+    <Preference android:i="@string/cz9" android:l2="settings_faceprint_unlock" android:lj="@layout/a3s" />
+    <PreferenceCategory />
+</PreferenceScreen>

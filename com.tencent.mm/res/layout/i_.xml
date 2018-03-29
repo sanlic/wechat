@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/gf" android:paddingRight="@dimen/gf" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ab7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/ab8" android:layout="@layout/ic" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/ab9" android:layout="@layout/ig" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/ab_" android:layout="@layout/ie" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/aba" android:layout="@layout/ih" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/abb" android:layout="@layout/id" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/abc" android:layout="@layout/if" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gf">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:id="@id/abd" android:background="@drawable/b4" android:layout_marginRight="@dimen/bt" android:text="@string/a9u" style="@style/ChattingItemSourceTextView" />
+    </LinearLayout>
+</LinearLayout>

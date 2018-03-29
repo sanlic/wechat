@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.widget.FoursquareRelativeLayout android:id="@id/f7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/a9r" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/boy" android:background="@drawable/ag9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/ck9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@raw/video_icon_sub" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/ia" android:textColor="@color/rp" android:id="@id/ck_" android:paddingTop="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="--:--" android:maxLines="1" android:layout_toRightOf="@id/ck9" android:layout_alignBaseline="@id/ck9" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/cka" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ag8" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/ckb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="5.0dip" android:src="@raw/photo_edit_mark_sub" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/adg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/er" android:layout_marginBottom="@dimen/er" android:src="@raw/error_image_sub" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/ckc" android:background="@color/iw" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ckd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/g8" android:scaleType="center" />
+</com.tencent.mm.ui.widget.FoursquareRelativeLayout>

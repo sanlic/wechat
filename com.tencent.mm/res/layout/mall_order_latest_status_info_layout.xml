@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/c5l" android:background="@drawable/k1" android:padding="@dimen/i5" android:visibility="visible" android:layout_height="100.0dip" android:layout_margin="0.0dip" style="@style/MallOrderDetailItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c61" android:background="@raw/mall_order_detail_frame" android:layout_width="53.299988dip" android:layout_height="53.299988dip" android:src="@raw/mall_order_trade_state_icon" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i5" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/ha" android:textColor="@color/ki" android:ellipsize="end" android:id="@id/c62" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/g5" android:textColor="@color/kg" android:ellipsize="end" android:id="@id/c63" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/g5" android:textColor="@color/rn" android:id="@id/c64" android:background="@drawable/cq" android:visibility="gone" android:layout_width="69.0dip" android:layout_height="33.299988dip" android:layout_marginLeft="10.0dip" android:text="@string/bxz" />
+</LinearLayout>

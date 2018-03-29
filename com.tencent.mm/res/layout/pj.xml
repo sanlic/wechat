@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/ay9" android:background="@color/rn" android:focusable="true" android:scrollbars="none" android:transcriptMode="disabled" style="@style/MMList" />
+    <TextView android:textSize="@dimen/g5" android:textColor="@color/iq" android:ellipsize="none" android:gravity="center" android:id="@id/ay_" android:padding="@dimen/gf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ave" android:singleLine="false" android:lineSpacingExtra="4.0dip" style="@style/MMFontPreferenceLarge" />
+</LinearLayout>

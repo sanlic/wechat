@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/a8c" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:layout_marginTop="@dimen/gf" android:layout_marginRight="@dimen/gw" android:layout_marginBottom="@dimen/bt">
+        <TextView android:textSize="@dimen/i9" android:textColor="#ff6a6a6a" android:ellipsize="end" android:id="@id/a87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/a8d" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/a8e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/i8" android:src="@drawable/ac9" />
+            <TextView android:textSize="@dimen/i9" android:textColor="@color/i6" android:ellipsize="end" android:id="@id/a88" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h_" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/dh" android:clickable="false" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_marginTop="@dimen/go">
+        <TextView android:textSize="@dimen/by" android:textColor="@color/dk" android:ellipsize="end" android:text="@string/a7c" android:singleLine="true" style="@style/CardIndexCardTitle" />
+    </LinearLayout>
+</LinearLayout>
