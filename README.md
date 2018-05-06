@@ -2,6 +2,10 @@
 
 modified wechat
 
+## note
+
+近期微信对使用此客户端的用户会发出封号警告，慎重使用。
+
 ## Screenshots
 
 <div align="center">
